@@ -1,6 +1,7 @@
 ### 🔄 Enhanced Project Awareness & Context Engineering
 - **Always read `PLANNING.md`** at the start of a new conversation to understand the project's architecture, goals, style, and constraints.
 - **Check `TASK.md`** before starting a new task. If the task isn't listed, add it with a brief description and today's date.
+- **Always start any workflow with explore** for each task and seek approval of your plan
 - **Use enhanced Context Engineering system** with failure pattern awareness and validation loops.
 - **Use consistent naming conventions, file structure, and architecture patterns** as described in `PLANNING.md`.
 - **Use venv_linux** (the virtual environment) whenever executing Python commands, including for unit tests.
@@ -11,6 +12,9 @@
 - **Follow multi-level validation** approach: syntax → unit tests → integration → performance.
 - **Run post-implementation analysis** to capture learnings and improve future implementations.
 - **Update knowledge base** with new patterns and metrics after each implementation.
+- **Always scrape multiple pages** with full context and following relevant links
+- **Don't assume your own tech stack** research as per the stack given in initial.md
+- **multiple independent instances or research** use parrellel agents vs sequential
 
 ### 🧱 Code Structure & Modularity
 - **Never create a file longer than 500 lines of code.** If a file approaches this limit, refactor by splitting it into modules or helper files.

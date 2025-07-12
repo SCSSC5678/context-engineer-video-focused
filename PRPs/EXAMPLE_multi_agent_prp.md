@@ -2,7 +2,7 @@ name: "Multi-Agent System: Research Agent with Email Draft Sub-Agent"
 description: |
 
 ## Purpose
-Build a Pydantic AI multi-agent system where a primary Research Agent uses Brave Search API and has an Email Draft Agent (using Gmail API) as a tool. This demonstrates agent-as-tool pattern with external API integrations.
+Build a Pydantic AI multi-agent system where a primary Research Agent uses Perplexity Search API and has an Email Draft Agent (using Gmail API) as a tool. This demonstrates agent-as-tool pattern with external API integrations.
 
 ## Core Principles
 1. **Context is King**: Include ALL necessary documentation, examples, and caveats

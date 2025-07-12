@@ -28,6 +28,27 @@ Generate a comprehensive PRP for feature implementation with thorough research, 
    - Best practices and common pitfalls
    - Recent updates and breaking changes
    - Performance considerations and benchmarks
+   - **Multi-layered Research Approach**
+     - Use `web_fetch` for documentation pages and `chat_perplexity` for comprehensive searches
+     - Follow links up to 3 levels deep, prioritizing official docs and implementation examples
+     - Layer research: concepts → implementation → edge cases → community insights
+     - ALWAYS cross-reference multiple sources and document any conflicting information
+   
+   - **Tech Stack Awareness**
+     - Parse project files first (`package.json`, `requirements.txt`, etc.) to identify exact dependencies
+     - Research within the constraints of identified technologies and their specific versions
+     - Don't assume your own preference in tech stack for research, use the provided stacks
+   
+   - **Sequential Thinking for Complex Analysis**
+     - Use `sequentialthinking` tool (ultrathink) for complex code relationships and architectural decisions
+     - Apply `sequentialthinking` (megathink) for deeply nested problems with multiple dependencies
+     - Break down complex problems iteratively, revising understanding as new information emerges
+     - Generate and verify hypotheses about implementation approaches
+   
+   - **Perplexity MCP Integration**
+     - Start with `search` for broad understanding, then use `chat_perplexity` for detailed conversations
+     - Use `get_documentation` for specific library/API docs
+     - Combine with `resolve-library-id` and `get-library-docs` from Context7 MCP for official documentation
 
 4. **Success Metrics Analysis**
    - Load historical success metrics for this feature type
